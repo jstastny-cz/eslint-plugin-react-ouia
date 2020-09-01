@@ -1,0 +1,40 @@
+{
+    "name": "eslint-plugin-react-ouia",
+    "version": "0.0.1",
+    "description": "eslint plugin to check OUIA(https://ouia.readthedocs.io/en/latest/README.html) compliance of react app",
+    "type": "module",
+    "main": "index.js",
+    "repository": "github.com/jstastny-cz/eslint-plugin-react-ouia",
+    "author": "jstastny-cz",
+    "license": "Apache-2.0",
+    "scripts": {
+        "lint": "eslint ./"
+    },
+    "dependencies": {
+        "@babel/parser": "^7.11.5",
+        "jsx-ast-utils": "^2.4.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.11.4",
+        "@babel/preset-env": "^7.11.5",
+        "@types/eslint": "^7.2.2",
+        "babel-eslint": "^10.1.0",
+        "babel-jest": "^26.3.0",
+        "eslint": "^7.7.0",
+        "eslint-plugin-eslint-plugin": "^2.3.0",
+        "jest": "^26.4.2"
+    },
+    "jest": {
+        "moduleFileExtensions": [
+            "ts",
+            "tsx",
+            "js"
+        ],
+        "roots": [
+            "tests"
+        ],
+        "testMatch": [
+            "**/tests/**/*.js"
+        ]
+    }
+}
